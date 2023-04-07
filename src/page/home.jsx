@@ -4,10 +4,11 @@ import Chat from '../components/chat'
 
 function home() {
     return (
-        <div>
+        <div className='home'>
             <div className='container'>
                 <Sidebar />
                 <Chat />
+
             </div>
         </div>
     )

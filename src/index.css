@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body {
+    margin: 0;
+}
 .formContainer {
     color: #05386b;
     background-color: #05386b;
@@ -22,4 +24,29 @@ form input {
 .formWrapper {
     border-radius: .75rem;
     background-color: #5CDB95;
+}
+.home {
+    background-color: #5CDB95;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    min-height: 90%;
+    min-width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+
+}
+
+.side {
+    background-color: #05386b;
+}
+
+.chat {
+    background-color: #379683;
 }
