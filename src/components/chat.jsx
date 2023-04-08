@@ -1,13 +1,12 @@
 import React from 'react'
+import Chatnavt from './chanavt'
+import Messages from './messages'
 
 function chat() {
     return (
-        <div className='chat rounded-md'>
-            <div className='w-full bg-[#05386b] h-10 rounded-md pr-24 text-white' >
-                user name
-
-            </div>
-            chat
+        <div>
+            <Chatnavt />
+            <Messages />
         </div>
     )
 }
