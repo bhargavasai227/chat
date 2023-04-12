@@ -1,8 +1,8 @@
 import React from 'react'
 import Sidebar from '../components/sidebar'
 import Chat from '../components/chat'
-
 function home() {
+
     return (
         <div className='home'>
             <div className='container'>

@@ -11,6 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 form input {
@@ -22,6 +23,7 @@ form input {
     border: 1px solid #05386b;
 }
 .formWrapper {
+    
     border-radius: .75rem;
     background-color: #5CDB95;
 }
@@ -36,7 +38,7 @@ form input {
 
 .container {
     min-height: 90%;
-    min-width: 80%;
+    min-width: 70%;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
