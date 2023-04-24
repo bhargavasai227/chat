@@ -2,7 +2,8 @@ import React from 'react'
 
 function msgUpload(e) {
     e.preventDefault();
-    console.log(e);
+    alert(e.target[0].value)
+
 }
 function input() {
     return (

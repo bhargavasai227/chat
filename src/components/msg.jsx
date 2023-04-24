@@ -11,7 +11,7 @@ function msg() {
                 <img src='http://ecap.pace.ac.in//StudentPhotos/21kq1a0545.jpg' alt='dp' className=' h-8'></img>
                 <p className='text-xs'>{time}</p>
             </div>
-            <div className='pr-3'>message</div>
+            <div className='pr-3' key="hi">message</div>
         </div>
     )
 }
